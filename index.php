@@ -16,7 +16,7 @@
 	<input type="submit" name="submit"><br>
 </form>
 -->
-<form action="/new/newRule.php">
+<form action="./new/newRule.php">
 	<input type="submit" value="New Rule">
 </form>
 <?php

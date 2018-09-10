@@ -1,2 +1,2 @@
-# IPtablesLinuxGUI
-A GUI created for managing specific IP Table rules, mostly from the filter table.
+Insecure command that has to be written in /etc/sudoers to unlock php terminal commands:
+www-data ALL=(ALL) NOPASSWD:ALL

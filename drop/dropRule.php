@@ -5,14 +5,14 @@
 <body>
 <h1>Drop Chain Rule</h1>
 <hr>
-<form action="ruleDropped.php" action="post">
+<form action="./ruleDropped.php" method="post">
     <label>Choose the Chain</label><br>
     <input type="radio" name="chain" value="INPUT" id="chain_input">
 	<label for="chain_input">INPUT</label><br>
     <input type="radio" name="chain" value="OUTPUT" id="chain_output">
 	<label for="chain_output">OUTPUT</label><br>
     <label>Choose the number of the rule</label>
-    <input type="text" name="number">
+    <input type="number" name="number"><br>
     <input type="submit" name="submit" value="Submit">
 </form>
 <hr>

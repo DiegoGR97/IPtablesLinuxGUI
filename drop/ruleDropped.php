@@ -9,5 +9,6 @@
     shell_exec("sudo iptables -D $chain $number");
     echo 'Rule deleted.';
 ?>
+<a href="/">Home</a>
 </body>
 </html>

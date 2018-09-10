@@ -11,6 +11,9 @@
 <form action="./edit/editRule.php">
 	<input type="submit" value="New Edit"> 
 </form>
+<form action="./drop/dropRule.php">
+	<input type="submit" value="New Delete"> 
+</form>
 <?php
 	echo '<h3>Chain INPUT</h3>';
 	$var = shell_exec('sudo iptables -nL INPUT');

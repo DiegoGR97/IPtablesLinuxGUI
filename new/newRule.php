@@ -20,7 +20,7 @@
 -->
 <hr>
 <h3>Add IP Rules</h3>
-<form action="./createdRule.php" method="post">
+<form action="./newIpRule.php" method="post">
     <label>Choose the chain to modify</label><br>
     <input type="radio" name="chain" value="INPUT" id="chain_input">
     <label for="chain_input">INPUT</label><br>
@@ -39,12 +39,12 @@
 </form>
 <hr>
 <h3>Add port/protocol rules</h3>
-<form action="./createdRule.php" method="post">
+<form action="./newPpRule.php" method="post">
 <label>Choose the chain to modify</label><br>
-    <input type="radio" name="chain" value="INPUT" id="chain_input">
-    <label for="chain_input">INPUT</label><br>
-    <input type="radio" name="chain" value="OUTPUT" id="chain_output">
-    <label for="chain_output">OUTPUT</label><br>
+    <input type="radio" name="chain" value="INPUT" id="chain_input2">
+    <label for="chain_input2">INPUT</label><br>
+    <input type="radio" name="chain" value="OUTPUT" id="chain_output2">
+    <label for="chain_output2">OUTPUT</label><br>
     <label>Choose the protocol</label><br>
     <input type="radio" name="protocol" value="tcp" id="protocol_tcp">
     <label for="protocol_tcp">TCP</label><br>
@@ -53,12 +53,12 @@
     <label>Choose the port</label><br>
     <input type="text" name="port"><br>
     <label>Choose the jump that this port will have</label><br>
-    <input type="radio" name="jump" value="ACCEPT" id="jump_accept">
-    <label for="jump_accept">ACCEPT</label><br>
-    <input type="radio" name="jump" value="DROP" id="jump_drop">
-    <label for="jump_drop">DROP</label><br>
-    <input type="radio" name="jump" value="REJECT" id="jump_reject">
-    <label for="jump_reject">REJECT</label><br>
+    <input type="radio" name="jump" value="ACCEPT" id="jump_accept2">
+    <label for="jump_accept2">ACCEPT</label><br>
+    <input type="radio" name="jump" value="DROP" id="jump_drop2">
+    <label for="jump_drop2">DROP</label><br>
+    <input type="radio" name="jump" value="REJECT" id="jump_reject2">
+    <label for="jump_reject2">REJECT</label><br>
     <input type="submit" name="submit" value="Submit">
 <hr>
 </body>

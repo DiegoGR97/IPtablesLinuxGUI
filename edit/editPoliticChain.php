@@ -9,6 +9,6 @@
     $politic = $_POST['politic'];
     shell_exec("sudo iptables -P $chain $politic");
 ?>
-<a href="/">Home</a>
+<a href="../">Home</a>
 </body>
 </html>

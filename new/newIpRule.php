@@ -17,7 +17,7 @@
         echo "Not a valid IP";
     }
 ?>
-<a href="/">Home</a>
+<a href="../">Home</a>
 </body>
 </html>
 

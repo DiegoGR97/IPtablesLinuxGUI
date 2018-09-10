@@ -11,6 +11,6 @@
     shell_exec("sudo iptables -A $chain -p $protocol -dport $port -j $jump");
     echo "Rule added successfully";
 ?>
-<a href="/">Home</a>
+<a href="../">Home</a>
 </body>
 </html>
